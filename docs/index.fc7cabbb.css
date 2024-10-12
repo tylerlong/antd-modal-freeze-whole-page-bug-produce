@@ -277,7 +277,7 @@ mark {
   padding: .2em;
 }
 
-body > div {
+div#react-root {
   width: 100vw;
   height: 100vh;
   position: fixed;

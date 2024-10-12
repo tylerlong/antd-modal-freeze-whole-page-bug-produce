@@ -1,6 +1,6 @@
 @import '../node_modules/antd/dist/reset.css';
 
-body > div {
+div#react-root {
   position: fixed;
   top: 0;
   left: 0;

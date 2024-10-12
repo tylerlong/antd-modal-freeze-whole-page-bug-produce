@@ -2958,6 +2958,7 @@ var _client = require("react-dom/client");
 var _app = require("./app");
 var _appDefault = parcelHelpers.interopDefault(_app);
 var container = document.createElement("div");
+container.id = "react-root";
 document.body.appendChild(container);
 var root = (0, _client.createRoot)(container);
 root.render(/*#__PURE__*/ (0, _reactDefault.default).createElement((0, _react.StrictMode), null, /*#__PURE__*/ (0, _reactDefault.default).createElement((0, _appDefault.default), null)));
