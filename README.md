@@ -39,7 +39,7 @@ The first time you open a modal, Ant Design will insert a `<div/>` under `<body/
 Change the css to
 
 ```css
-div#react-root {
+#root {
   position: fixed;
   top: 0;
   left: 0;

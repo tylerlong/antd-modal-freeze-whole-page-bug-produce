@@ -3,10 +3,7 @@ import { createRoot } from 'react-dom/client';
 
 import App from './app';
 
-const container = document.createElement('div');
-container.id = 'react-root';
-document.body.appendChild(container);
-const root = createRoot(container);
+const root = createRoot(document.getElementById('root')!);
 root.render(
   <StrictMode>
     <App />
